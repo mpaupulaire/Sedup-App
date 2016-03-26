@@ -1,9 +1,158 @@
 <ion-view view-title="Account">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+  <ion-content scroll = "false" overflow-scroll = "false" >
+    <div class="row double">
+      <div class="col col-50">
+        <ion-scroll   scrollbar-y="false">
+          <div class="side">
+            <div class="list card" ng-click = "selectBoy()">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Adam</h2>
+              </div>
+            </div>
+          </div>
+        </ion-scroll>
+      </div>
+
+      <div class="vol">
+        <ion-scroll scrollbar-y="false">
+          <div class="side">
+            <div class="list card" ng-click = "selectGirl()">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="img/adam.jpg" alt="adam" />
+                <h2>Sarah</h2>
+              </div>
+            </div>
+          </div>
+        </ion-scroll>
+      </div>
+    </div>
+    <button class = "button button-outline button-block button-positive" ng-disabled="!boy || !girl">Sedup</button>
   </ion-content>
 </ion-view>

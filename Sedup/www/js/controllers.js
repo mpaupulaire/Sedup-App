@@ -16,13 +16,30 @@ angular.module('starter.controllers', [])
     Chats.remove(chat);
   };
 })
+.controller('LoginCtrl',function($scope){
+
+
+  $scope.sum = function(){
+    return true;
+  };
+})
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
 .controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
+  $scope.girl = false;
+  $scope.boy = false;
+
+
+  $scope.selectBoy = function() {
+      $scope.boy = true;
   };
+  $scope.selectGirl = function(){
+      $scope.girl = true;
+  };
+
+
+
 });
